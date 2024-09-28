@@ -1,4 +1,4 @@
-# Atividade---LOGIN-HBOMAX---Escola-DNC
+# Atividade---FRONTEND---login-hbomax---Escola-DNC
 
 ## Sobre o projeto
 Essa atividade trata-se de uma pagina simples escrita apenas com HTML e CSS que replica a area de login da plataforma HBO Max.
