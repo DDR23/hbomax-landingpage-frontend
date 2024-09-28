@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HBO MAX22</title>
-    <link rel="stylesheet" href="/style/style.css">
-    <script src="https://kit.fontawesome.com/4dfc617a32.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HBO MAX22</title>
+  <link rel="stylesheet" href="/style/style.css">
+  <script src="https://kit.fontawesome.com/4dfc617a32.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div id="backgroundMovie">
-        <video autoplay loop src="/movie/backgroundMovieHboMax.mp4"></video>
+  <nav>
+    <div id="navButtons">
+      <a class="menuSearch" href="#"><img src="/image/menu.svg" alt=""></a>
+      <a class="menuSearch" href="#"><img src="/image/search.svg" alt=""></a>
     </div>
-    <nav>
-        <div id="navMenu">
-            <a class="menuSearch" href=""><img src="/image/menu.svg" alt=""></a>
-            <a class="menuSearch" href=""><img src="/image/search.svg" alt=""></a>
-                
-        </div>
-        <header>
-            <a class="alinhadoAoMeio" href="/index.html"><img src="/image/logoHbo.svg" alt="HBOMax"></a>
-        </header>
-        <div id="navLogin">
-            <a class="login" href="">Assinar</a>
-            <a class="login" href="">Entrar</a>
-        </div>
-    </nav>
-    <section>
-        <div id="parteSuperior">
-            <h1>Entrar</h1>
-            <h2>Você tem uma conta HBO Max?</h2>
-        </div>
-        <div id="formularioDeLogin">
-            <form action="#">
-                <label for="">E-mail</label>
-                <input type="text" name="email" id="" placeholder="Digite seu e-mail">
-                <label for="">Senha</label>
-                <input type="password" name="senha" id="" placeholder="Digite sua senha">
-                <input type="submit" name="" id="botaoEnviar" value="Entrar">
-            </form>
-        </div>
-        <div id="parteInferior">
-            <h2>Você acessa a HBO Max por um provedor<br>de TV, de internet ou celular?</h2>
-            <button id="acessoProvedor">Entrar como provedor</button>
-        </div>
-        </section>
-        <footer>
-            <h5>
-                © 2023 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.
-            </h5>
-        </footer>
-</body> 
+    <a class="alinhadoAoMeio" href="/index.html"><img src="/image/logoHbo.svg" alt="HBOMax"></a>
+    <div id="navButtons" class="navButtonsInvert">
+      <a class="login" href="#">Assinar</a>
+      <a class="login" href="#">Entrar</a>
+    </div>
+  </nav>
+  <section>
+    <div id="parteSuperior">
+      <h1>Entrar</h1>
+      <h2>Você tem uma conta HBO Max?</h2>
+    </div>
+    <div id="formularioDeLogin">
+      <form>
+        <label for="email">E-mail</label>
+        <input type="text" id="email" placeholder="Digite seu e-mail">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite sua senha">
+        <input type="button" id="botaoEnviar" value="Entrar">
+      </form>
+    </div>
+    <div id="parteInferior">
+      <h2>Você acessa a HBO Max por um provedor de TV, de internet ou celular?</h2>
+      <button type="button" id="acessoProvedor">Entrar como provedor</button>
+    </div>
+  </section>
+  <footer>
+    <h5>
+      © 2023 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.
+    </h5>
+  </footer>
+  <video autoplay loop muted id="background-video">
+    <source src="/movie/backgroundMovieHboMax.mp4" type="video/mp4">
+  </video>
+</body>
+
 </html>

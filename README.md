@@ -7,6 +7,7 @@ Projeto hospedado em: https://preeminent-narwhal-250aae.netlify.app/
 
 ## Screenshots
 ![App Screenshot](/public/picture_01.png)
+![App Screenshot](/public/picture_02.png)
 
 ## Atualizações
 Esse projeto passou por atualizações em 28/09/24, nao alterando a estrutura base do projeto, alterando apenas debitos tecnicos que haviam ficado.
