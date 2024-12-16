@@ -1,7 +1,7 @@
-# Atividade---FRONTEND---login-hbomax---Escola-DNC
+# hbomax-landingpage-frontend
 
 ## Sobre o projeto
-Essa atividade trata-se de uma pagina simples escrita apenas com HTML e CSS que replica a area de login da plataforma HBO Max.
+Essa repositório é uma pagina simples escrita apenas com HTML e CSS que replica a area de login da plataforma HBO Max.
 
 Projeto hospedado em: https://preeminent-narwhal-250aae.netlify.app/
 
